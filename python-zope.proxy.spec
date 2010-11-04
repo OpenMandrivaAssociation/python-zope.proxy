@@ -1,6 +1,6 @@
 Name:		python-zope.proxy
 Version:	3.5.0
-Release:	%mkrel 1
+Release:	%mkrel 2
 Group:		Development/Python
 License:	Zope Public License
 Summary:	Generic Transparent Proxies
@@ -24,6 +24,7 @@ location brokering, etc.) for which the proxy is responsible.
 %build
 
 %install
+PYTHONDONTWRITEBYTECODE= \
 %__python setup.py install --root=%{buildroot} --record=INSTALLED_FILES
 
 %clean
