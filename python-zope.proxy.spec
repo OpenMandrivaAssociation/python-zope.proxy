@@ -6,7 +6,7 @@ License:	Zope Public License
 Summary:	Generic Transparent Proxies
 #md5=ac5fc916b572bc3ff630b49cda52d94a
 Source:		http://pypi.python.org/packages/source/z/zope.proxy/zope.proxy-3.5.0.tar.gz
-URL:		http://pypi.python.org/pypi/zope.proxy/3.5.0
+URL:		https://pypi.python.org/pypi/zope.proxy/3.5.0
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 BuildRequires:	python-devel
